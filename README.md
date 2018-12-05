@@ -1,26 +1,8 @@
-# stripe-rebuild
+Rebuild of the Stripe Dashboard with Tailwind CSS and Vue.js
+============================================================
 
-## Project setup
-```
-npm install
-```
+I used the utility-first CSS framework Tailwind to rebuild the Stripe dashboard. It's as responsive as the orginal dashboard but non-functional (no tooltips or buttons). I mainly used font-awesome for the icon, although I stole a few from Stripe.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+![Original](images/original.png)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+![Rebuild](images/rebuild.png)
