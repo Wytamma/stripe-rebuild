@@ -7,4 +7,4 @@ I used the utility-first CSS framework [Tailwind](https://tailwindcss.com/) to r
 ![Original](images/original.png)
 
 ## Rebuild
-![Rebuild](images/rebuild.png)
+![Rebuild](images/tailwind-rebuild.png)
