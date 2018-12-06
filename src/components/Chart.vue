@@ -83,6 +83,6 @@
 </template>
 <script>
 export default {
-  name: 'Chart',
-}
+  name: "Chart"
+};
 </script>

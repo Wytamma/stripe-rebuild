@@ -40,14 +40,14 @@
 </template>
 
 <script>
-import Navbar from './components/NavBar.vue'
-import AccountSelect from './components/AccountSelect.vue'
-import SearchBar from './components/SearchBar.vue'
-import Chart from './components/Chart.vue'
-import AnalyticsCard from './components/AnalyticsCard.vue'
+import Navbar from "./components/NavBar.vue";
+import AccountSelect from "./components/AccountSelect.vue";
+import SearchBar from "./components/SearchBar.vue";
+import Chart from "./components/Chart.vue";
+import AnalyticsCard from "./components/AnalyticsCard.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Navbar,
     AccountSelect,
@@ -55,7 +55,7 @@ export default {
     Chart,
     AnalyticsCard
   }
-}
+};
 </script>
 
 <style>
@@ -64,7 +64,6 @@ export default {
 @tailwind utilities;
 
 .col {
-  background-attachment: #6073e0}
-
-
+  background-attachment: #6073e0;
+}
 </style>

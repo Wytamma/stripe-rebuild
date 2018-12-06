@@ -38,31 +38,31 @@
             </div>
             </div>
             </div>
-            <div class="border-t border-grey-light bg-grey-lightest pb-4 ">
-            <div class="flex items-center justify-between px-6 pt-4">
-                <div class="flex flex-col">
-                <div class="text-sm text-grey-darker pb-1">
-                    Gross Volume
-                </div>
-                <div class="text-indigo text-lg font-semibold">
-                    $0.00
-                </div>
-                </div>  
-                <div class="">
-                <div class="flex h-8 border-b-2 border-indigo">
-                    <div class="w-10 border-r border-l border-grey-light">
+            <div class="rounded-b border-t border-grey-light bg-grey-lightest pb-4 ">
+                <div class="flex items-center justify-between px-6 pt-4">
+                    <div class="flex flex-col">
+                    <div class="text-sm text-grey-darker pb-1">
+                        Gross Volume
                     </div>
-                    <div v-for="n in 6" :key="n" class="w-10 border-r border-grey-light">
+                    <div class="text-indigo text-lg font-semibold">
+                        $0.00
                     </div>
-                </div>
+                    </div>  
+                    <div>
+                    <div class="flex h-8 border-b-2 border-indigo">
+                        <div class="w-10 border-r border-l border-grey-light">
+                        </div>
+                        <div v-for="n in 6" :key="n" class="w-10 border-r border-grey-light">
+                        </div>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 </template>
 
 <script>
 export default {
-  name: 'AnalyticsCard'
-}
+  name: "AnalyticsCard"
+};
 </script>

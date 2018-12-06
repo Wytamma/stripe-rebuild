@@ -32,6 +32,6 @@
 
 <script>
 export default {
-  name: 'AccountSelect'
-}
+  name: "AccountSelect"
+};
 </script>
